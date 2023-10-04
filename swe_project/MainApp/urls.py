@@ -1,7 +1,0 @@
-from django.urls import path
-from . import views
-
-urlpatterns = [
-    path('login/', views.user_login, name='user_login'),
-    path('admin_page/', views.admin_page, name='admin_page')
-]
